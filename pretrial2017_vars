@@ -1,0 +1,77 @@
+
+DEMOGRAPHICS:
+Defendant_Sex
+Defendant_Race
+Defendant_Age
+Defendant_AgeGroup
+Defendant_IndigencyStatus
+WhetherDefendantWasReleasedPretrial
+
+
+***CASE ISSUES***
+BondTypeAtInitialContact
+BondAmountAtInitialContact
+ContactEvent_WhetherOffensePunishablebyIncaration
+CaseType_MostSerChargeinContactEvent_regardlessofFinalDisp
+CurrentCharge_VPRAIViolent
+CurrentCharge_PSAViolent
+
+
+***VPRAI AND PSA***
+VPRAI_TotalPoints_Opt1
+VPRAI_RiskLevel_Opt2
+VPRAI_TotalPoints_Opt2
+VPRAI_RiskLevel_Opt2
+VPRAI_PTPlacementRiskLevel
+PSA_FTA_TotalPoints
+PSA_FTA_RiskLevelScale
+PSA_NCA_TotalPoints
+PSA_NCA_RiskLevelScale
+PSA_NCVA_TotalPoints
+
+
+
+***GEOGRAPHIC STATS***
+UnemploymentRate_October2017_BureauofLaborStatistics
+GiniIndex
+WhiteAlonePercentage_PopulationEstimate_2017_Census
+AfricanAmericanAlonepercentage_PopulationEstimate_2017_Census
+AsianAlonepercentage_PopulationEstimate_2017_Census
+Male_MedianAge_2017Census
+Female_MedianAge_2017Census
+
+
+
+***REALIZED OUTCOMES***
+FinalDispositionAllCharges_v1
+ImposedSentenceMostSeriousConvictionInContactEvent
+
+
+***NEW OFFENSES***
+FollowUp_ArrestedforNewOff
+FollowUp_ChargedWithNewFTA
+NewArrest_VCC
+NewArrest_Type
+NewArrest_VCCClassification
+NewArrest_Disposition
+FollowUp_ArrestedForNewOffPunishableByIncarceration
+NewArrestPunishableByIncarceration_Type
+FollowUp_NewFelonyArrest
+NewFelonyArrest_VCC
+NewFelonyArrest_VCCPrefix
+NewFelonyArrest_VCCClassification
+NewFelonyArrest_Type
+NewFelonyArrest_Disposition
+
+FollowUp_NewVPRAIViolentArrest
+NewVPRAIViolentArrest_VCC
+NewVPRAIViolentArrest_VCCPrefix
+NewVaCode297ViolentOff_VCC
+NewVaCode297ViolentOff_Disposition # Convicted of new violent offense
+
+
+
+
+
+
+# ROC curve for new violent arrest versus PSA and VPRAI levels
